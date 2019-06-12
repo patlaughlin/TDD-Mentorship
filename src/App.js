@@ -1,26 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import InputComponent from "./components/InputComponent";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App container-fluid">
+            <div className="row">
+                <div className="col-12">
+                    <h1 className='mb-5'>TDD Todo List</h1>
+                    <InputComponent/>
+                </div>
+            </div>
+        </div>
+    );
 }
 
 export default App;

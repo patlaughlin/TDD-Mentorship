@@ -1,0 +1,20 @@
+- as a user i should be able to create a todo
+    - i should be able to enter text into a text box
+    - i shouldn't be able to add only numbers to the text box
+
+    - there should be a submit button
+        - when you click the submit button the todo should be created
+
+
+- as a user i should be able to update a todo
+    - as a user i should be able to mark a todo as done
+
+        - a strikethrough should apply to the todo when it is marked as done
+- as a user i should be able to delete a todo
+- as a user i should be able to see a list of all todos
+
+someday/maybe
+- as a user i should be able to add a due date to a todo
+- as a user i should be able to update a due date on a todo
+- as a user i should be able to add how long i think a todo will take
+- as a user i should be able to update how long i think a todo will take
